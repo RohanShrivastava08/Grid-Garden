@@ -1,0 +1,18 @@
+Q.4 When pairing grid-column-start and grid-column-end, you might assume that the end value has
+to be greater than the start value.
+But this turns out not the case!
+Try setting grid-column-end to a value less than 5 to water your carrots.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column-start: 5;
+------------------------
+}
+
+Solution:
+grid-column-end: 2;
