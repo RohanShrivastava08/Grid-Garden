@@ -1,0 +1,15 @@
+Q.9 You can also use the span keyword with grid-column-start to set your item's width relative to the end position.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+--------------------------
+  grid-column-end: 6;
+}
+
+Solution:
+grid-column-start: span 3;
