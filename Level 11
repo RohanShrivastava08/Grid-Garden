@@ -1,0 +1,15 @@
+Q.11 Try using grid-column to water these carrots.
+The span keyword also works with this shorthand property so give it a try!
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+----------------
+}
+
+Solution:
+grid-column: 2 / span 3;
