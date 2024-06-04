@@ -1,0 +1,18 @@
+Q.12 One of the things that sets CSS grids apart from flexbox is
+that you can easily position items in two dimensions: columns and rows.
+grid-row-start works much like grid-column-start except along the vertical axis.
+
+Use grid-row-start to water these carrots.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+------------
+}
+
+Solution:
+grid-row-start: 3;
