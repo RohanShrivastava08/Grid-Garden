@@ -1,0 +1,15 @@
+Q.14 Use grid-column and grid-row at the same time to set position in both dimensions.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#poison {
+-------------
+}
+
+Solution:
+grid-column: 2;
+grid-row: 5;
