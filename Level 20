@@ -1,0 +1,26 @@
+Q.20 Up to this point, you've had your garden set up as a grid with five columns,
+each 20% of the full width, and five rows, each 20% of the full height.
+
+This was done with the rules grid-template-columns: 20% 20% 20% 20% 20%;
+and grid-template-rows: 20% 20% 20% 20% 20%;
+Each rule has five values which create five columns,
+each set to 20% of the overall width of the garden.
+
+But you can set the grid up however you like.
+Give grid-template-columns a new value to water your carrots.
+You'll want to set the width of the 1st column to be 50%.
+
+
+#garden {
+  display: grid;
+-------------
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+Solution:
+grid-template-columns: 50% 50%;
