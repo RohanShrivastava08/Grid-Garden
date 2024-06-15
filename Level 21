@@ -1,0 +1,22 @@
+Q.21 Specifying a bunch of columns with identical widths can get tedious.
+Luckily there's a repeat function to help with that.
+
+For example, we previously defined five 20% columns with the rule grid-template-columns:
+20% 20% 20% 20% 20%;. This can be simplified as grid-template-columns: repeat(5, 20%);
+
+Using grid-template-columns with the repeat function, create eight columns each with 12.5% width.
+This way you won't overwater your garden.
+
+#garden {
+  display: grid;
+--------------------------
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+Solution:
+grid-template-columns: repeat(8, 12.5%);
